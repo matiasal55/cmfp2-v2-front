@@ -1,8 +1,13 @@
+import Header from './Header';
+import Footer from './Footer';
+import '../styles/_mixins.scss';
+
 const Layout = (props) => {
     return (
         <div>
-            <h1>Layout</h1>
+            <Header />
             {props.children}
+            <Footer />
         </div>
     );
 };
