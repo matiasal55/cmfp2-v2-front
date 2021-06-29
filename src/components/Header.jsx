@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import logo from '../assets/logo.jpg';
 import { useEffect, useState } from 'react';
+import { scrollFade } from '../utils/scrollFade';
 
 const Header = () => {
     const [menu, setMenu] = useState(false);
@@ -16,11 +17,7 @@ const Header = () => {
     useEffect(() => {
         if (window.innerWidth <= 768) setMenu(false);
         window.addEventListener('scroll', () => {
-            if (window.pageYOffset >= scrollMaxMenu) {
-                setScroll(true);
-            } else {
-                setScroll(false);
-            }
+            setScroll(scrollFade(scrollMaxMenu));
         });
     }, []);
 

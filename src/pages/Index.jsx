@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cards from '../components/Cards';
 import '../styles/index.scss';
+import { scrollFade } from '../utils/scrollFade';
 
 const Index = () => {
     const [scroll, setScroll] = useState(false);
@@ -9,8 +10,7 @@ const Index = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.pageYOffset >= scrollMax) setScroll(true);
-            else setScroll(false);
+            setScroll(scrollFade(scrollMax));
         });
     }, []);
 

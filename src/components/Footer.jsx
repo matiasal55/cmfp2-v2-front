@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { scrollFade } from '../utils/scrollFade';
 import Nav from './Nav';
 
 const Footer = () => {
@@ -7,8 +8,7 @@ const Footer = () => {
     useEffect(() => {
         const scrollMax = window.screen.height * 0.65;
         window.addEventListener('scroll', () => {
-            if (window.pageYOffset >= scrollMax) setScroll(true);
-            else setScroll(false);
+            setScroll(scrollFade(scrollMax));
         });
     }, []);
 
