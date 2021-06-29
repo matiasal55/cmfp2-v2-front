@@ -1,9 +1,20 @@
+import { useEffect, useState } from 'react';
 import Nav from './Nav';
 
 const Footer = () => {
+    const scrollMax = window.screen.height * 0.65;
+    const [scroll, setScroll] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset >= scrollMax) setScroll(true);
+            else setScroll(false);
+        });
+    }, []);
+
     return (
         <footer>
-            <div className='footer'>
+            <div className={`footer ${scroll ? 'mostrar' : ''}`}>
                 <div className='datos'>
                     <p>Centro Municipal de Formación Profesional N°2</p>
                     <p>Manuel Belgrano</p>

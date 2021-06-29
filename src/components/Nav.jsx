@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Nav = (props) => {
-    const { footer, menu } = props;
+    const { footer, menu, scroll } = props;
     const [cursos, setCursos] = useState(false);
-    // const cursos = document.getElementsByClassName('cursos')[0];
 
     const mostrar = () => {
         setCursos(!cursos);
+        scroll(!cursos);
     };
 
     return (
@@ -18,7 +18,7 @@ const Nav = (props) => {
             {!footer ? (
                 <div className='nav-items cursos-titulo' onClick={mostrar}>
                     Cursos <i class='fas fa-chevron-down' id='cursos'></i>
-                    <div className={`cursos ${cursos ? 'responsive' : ''}`}>
+                    <div className={`cursos ${cursos ? 'mostrar' : ''}`}>
                         <div className='cursos-items'>
                             <Link to='/cursos-especialidades'>Cursos Especialidades</Link>
                         </div>

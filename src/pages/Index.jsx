@@ -1,8 +1,19 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cards from '../components/Cards';
 import '../styles/index.scss';
 
 const Index = () => {
+    const [scroll, setScroll] = useState(false);
+    const scrollMax = 250;
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset >= scrollMax) setScroll(true);
+            else setScroll(false);
+        });
+    }, []);
+
     return (
         <>
             <main>
@@ -20,14 +31,14 @@ const Index = () => {
                     </div>
                 </div>
             </main>
-            <section className='section1'>
+            <section className={`section1 ${scroll ? 'mostrar' : ''}`}>
                 <h1>¿Por qué cursar?</h1>
                 <div className='section1-cards'>
                     <Cards />
                 </div>
             </section>
 
-            <section className='section2'>
+            <section className={`section2 ${scroll ? 'mostrar' : ''}`}>
                 <div className='noticias-calendario'>
                     <div className='noticias'>
                         <h2>Noticias</h2>

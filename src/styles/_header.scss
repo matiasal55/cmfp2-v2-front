@@ -61,7 +61,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
                 padding-left: 0px;
                 top: 40px;
 
-                &.responsive {
+                &.mostrar {
                     display: block;
                 }
 
@@ -71,11 +71,6 @@ $opacidad: rgba(0, 0, 0, 0.7);
             }
         }
     }
-    // .nav-items.cursos-titulo:hover {
-    //   .cursos {
-    //     display: block;
-    //   }
-    // }
 }
 
 @media (max-device-width: 768px) {
