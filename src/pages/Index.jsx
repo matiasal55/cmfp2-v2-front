@@ -22,12 +22,12 @@ const Index = () => {
                     <h2>Manuel Belgrano</h2>
                     <h3>Capacitate con los mejores cursos de alta calidad</h3>
                     <div className='call-action'>
-                        <div className='button button-first'>
-                            <Link to='/cursos-especialidades'>Ver cursos</Link>
-                        </div>
-                        <div className='button button-second'>
-                            <Link to='/inscripcion'>Informes de Inscripción</Link>
-                        </div>
+                        <Link to='/cursos-especialidades'>
+                            <div className='button button-first'>Ver cursos</div>
+                        </Link>
+                        <Link to='/inscripcion'>
+                            <div className='button button-second'>Informes de Inscripción</div>
+                        </Link>
                     </div>
                 </div>
             </main>

@@ -49,6 +49,13 @@ const Nav = (props) => {
             <div className='nav-items'>
                 <Link to='/contacto'>Contacto</Link>
             </div>
+            {!footer ? (
+                <div className='nav-items'>
+                    <Link to='/inscripcion'>
+                        <div className='button button-first'>Area de Alumnos</div>
+                    </Link>
+                </div>
+            ) : null}
         </nav>
     );
 };

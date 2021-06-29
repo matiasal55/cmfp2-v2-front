@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import Nav from './Nav';
 
 const Footer = () => {
-    const scrollMax = window.screen.height * 0.65;
     const [scroll, setScroll] = useState(false);
 
     useEffect(() => {
+        const scrollMax = window.screen.height * 0.65;
         window.addEventListener('scroll', () => {
             if (window.pageYOffset >= scrollMax) setScroll(true);
             else setScroll(false);
