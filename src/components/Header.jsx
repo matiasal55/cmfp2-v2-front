@@ -30,7 +30,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div onClick={mostrar}>
-                    <i class='fas fa-bars boton-responsive' id='boton-responsive'></i>
+                    <i className='fas fa-bars boton-responsive' id='boton-responsive'></i>
                 </div>
             </header>
             <Nav footer={false} menu={menu} scroll={setExpandido} />

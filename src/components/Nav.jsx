@@ -17,7 +17,7 @@ const Nav = (props) => {
             </div>
             {!footer ? (
                 <div className='nav-items cursos-titulo' onClick={mostrar}>
-                    Cursos <i class='fas fa-chevron-down' id='cursos'></i>
+                    Cursos <i className='fas fa-chevron-down' id='cursos'></i>
                     <div className={`cursos ${cursos ? 'mostrar' : ''}`}>
                         <div className='cursos-items'>
                             <Link to='/cursos-especialidades'>Cursos Especialidades</Link>

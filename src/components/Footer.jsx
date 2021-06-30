@@ -41,7 +41,7 @@ const Footer = () => {
                 <div className='redes'>
                     <p>Seguinos en nuestras redes</p>
                     <p>
-                        <i class='fab fa-facebook-square'></i> <i class='fab fa-instagram'></i>
+                        <i className='fab fa-facebook-square'></i> <i className='fab fa-instagram'></i>
                     </p>
                 </div>
             </div>
