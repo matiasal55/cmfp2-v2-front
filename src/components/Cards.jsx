@@ -32,8 +32,8 @@ const Cards = () => {
 
     return (
         <>
-            {cards.map((card) => (
-                <div className='section1-card'>
+            {cards.map((card, index) => (
+                <div key={index} className='section1-card'>
                     <img src={card.img} alt='' />
                     <h4>{card.titulo}</h4>
                     <h4>{card.subtitulo}</h4>
