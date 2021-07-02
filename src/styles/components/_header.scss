@@ -4,7 +4,18 @@
     align-items: center;
 }
 
+@mixin btn-area-menu-resp {
+    background-color: white;
+    color: red;
+}
+
 $opacidad: rgba(0, 0, 0, 0.7);
+$a-scroll: white;
+$button-responsive: white;
+$header-bg-responsive: black;
+$nav-bg-responsive: red;
+$a-nav-responsive: white;
+$a-cursos-responsive: red;
 
 .header {
     background: none;
@@ -30,16 +41,16 @@ $opacidad: rgba(0, 0, 0, 0.7);
         align-items: center;
 
         .boton-responsive {
-            color: white;
+            color: $button-responsive;
             font-size: 30px;
             display: none;
         }
     }
 
     &.scroll {
-        color: white;
+        color: $a-scroll;
         a {
-            color: white;
+            color: $a-scroll;
         }
     }
 
@@ -78,7 +89,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
         flex-direction: column;
 
         header {
-            background-color: black;
+            background-color: $header-bg-responsive;
             width: 100vw;
             justify-content: space-between;
             position: relative;
@@ -96,7 +107,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
 
         nav {
             flex-direction: column;
-            background-color: red;
+            background-color: $nav-bg-responsive;
             color: white;
             width: 100vw;
 
@@ -105,7 +116,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
                 text-align: center;
 
                 a {
-                    color: white;
+                    color: $a-nav-responsive;
                 }
 
                 .cursos {
@@ -119,7 +130,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
                     .cursos-items {
                         padding: 10px 0px;
                         a {
-                            color: red;
+                            color: $a-cursos-responsive;
                         }
                     }
                 }
@@ -130,8 +141,7 @@ $opacidad: rgba(0, 0, 0, 0.7);
             }
 
             .button.button-first {
-                background-color: white;
-                color: red;
+                @include btn-area-menu-resp;
                 margin: 0;
             }
         }

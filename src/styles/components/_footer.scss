@@ -1,7 +1,9 @@
+@import '../mixins';
 $a-footer: white;
+$bg-footer: black;
 
 footer {
-    background-color: black;
+    background-color: $bg-footer;
     color: $a-footer;
 
     a {
@@ -14,6 +16,8 @@ footer {
         width: 100%;
         padding: 50px 0px;
         align-items: center;
+        @include fadeInOut;
+
         .datos {
             p {
                 font-weight: bold;

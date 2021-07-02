@@ -19,73 +19,19 @@ $responsive: 768px;
     }
 }
 
-@mixin cards {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    text-align: center;
-    > div {
-        img {
-            max-width: 400px;
-        }
-    }
-}
+// @mixin cards {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-top: 30px;
+//     text-align: center;
+//     > div {
+//         img {
+//             max-width: 400px;
+//         }
+//     }
+// }
 
-* {
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-section {
-    width: 80%;
-    text-align: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-    h1 {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-}
-
-input[type='button'],
-.button,
-button {
-    padding: 10px;
-    margin: 10px 10px 10px 0px;
-    border: none;
-    cursor: pointer;
-    width: 200px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.button-first {
-    background-color: red;
-    color: white;
-}
-
-.button-second {
-    background-color: white;
-}
-
-.resaltar {
-    font-weight: bold;
-}
-
-.section1,
-.section2,
-.footer {
+@mixin fadeInOut {
     opacity: 0;
     transition: all 2s ease;
 
@@ -93,6 +39,3 @@ button {
         opacity: 1;
     }
 }
-
-@import './header';
-@import './footer';

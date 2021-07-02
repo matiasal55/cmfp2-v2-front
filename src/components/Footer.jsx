@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { scrollFade } from '../utils/scrollFade';
 import Nav from './Nav';
+import '../styles/components/_footer.scss';
 
 const Footer = () => {
     const [scroll, setScroll] = useState(false);

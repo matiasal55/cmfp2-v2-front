@@ -3,6 +3,7 @@ import Nav from './Nav';
 import logo from '../assets/logo.jpg';
 import { useEffect, useState } from 'react';
 import { scrollFade } from '../utils/scrollFade';
+import '../styles/components/_header.scss';
 
 const Header = () => {
     const [menu, setMenu] = useState(false);

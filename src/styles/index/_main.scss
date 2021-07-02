@@ -1,0 +1,22 @@
+@import '../mixins';
+
+@include imagen-de-fondo('./background/home01.jpg');
+
+main {
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    .main {
+        bottom: 10vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .call-action {
+            display: flex;
+        }
+    }
+}
