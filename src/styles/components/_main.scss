@@ -1,0 +1,15 @@
+main {
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    .main {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 90vh;
+        background-size: cover;
+        opacity: 0.6;
+    }
+}

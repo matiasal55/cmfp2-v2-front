@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
-import '../../styles/index/_main.scss';
+import Main from '../Main';
+import '../../styles/index/_contentMain.scss';
 
-const Main = () => {
+const MainHome = (props) => {
+    const { bgImage } = props;
+
     return (
-        <main>
-            <div className='main'>
+        <Main bgImage={bgImage}>
+            <div className='content'>
                 <h1>Centro Municipal de Formación Profesional N°2</h1>
                 <h2>Manuel Belgrano</h2>
                 <h3>Capacitate con los mejores cursos de alta calidad</h3>
@@ -17,8 +20,8 @@ const Main = () => {
                     </Link>
                 </div>
             </div>
-        </main>
+        </Main>
     );
 };
 
-export default Main;
+export default MainHome;

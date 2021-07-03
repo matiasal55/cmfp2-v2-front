@@ -1,24 +1,5 @@
 $responsive: 768px;
 
-@mixin imagen-de-fondo($imagen) {
-    main {
-        height: 70vh;
-        position: relative;
-
-        &::before {
-            content: '';
-            position: absolute;
-            background-image: url($imagen);
-            top: 0px;
-            bottom: 0px;
-            left: 0px;
-            right: 0px;
-            background-size: cover;
-            opacity: 0.6;
-        }
-    }
-}
-
 // @mixin cards {
 //     display: flex;
 //     flex-wrap: wrap;
