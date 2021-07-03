@@ -1,7 +1,7 @@
-import Img01 from '../../assets/01.png';
-import Img02 from '../../assets/02.png';
-import Img03 from '../../assets/03.png';
-import Img04 from '../../assets/04.png';
+import Img01 from '../../assets/cards/01.png';
+import Img02 from '../../assets/cards/02.png';
+import Img03 from '../../assets/cards/03.png';
+import Img04 from '../../assets/cards/04.png';
 import '../../styles/index/_cards.scss';
 
 const Cards = (props) => {
