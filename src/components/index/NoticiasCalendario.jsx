@@ -1,12 +1,11 @@
 import Noticias from '../noticias/Principales';
 import Calendario from './Calendario';
+import Section from '../Section';
 import '../../styles/index/_noticiasCalendario.scss';
 
 const NoticiasCalendario = (props) => {
-    const { scroll } = props;
-
     return (
-        <section className={`section ${scroll ? 'mostrar' : ''}`}>
+        <Section>
             <div className='noticias-calendario'>
                 <div className='noticias'>
                     <h2>Noticias</h2>
@@ -14,7 +13,7 @@ const NoticiasCalendario = (props) => {
                 </div>
                 <Calendario />
             </div>
-        </section>
+        </Section>
     );
 };
 
