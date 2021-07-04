@@ -17,24 +17,28 @@ const Footer = () => {
         <footer>
             <div className={`footer ${scroll ? 'mostrar' : ''}`}>
                 <div className='datos'>
-                    <p>Centro Municipal de Formación Profesional N°2</p>
-                    <p>Manuel Belgrano</p>
-                    <p>
-                        Dirección:
-                        <span> Maestra Cueto 750 - Morón</span>
-                    </p>
-                    <p>
-                        Horario de atención:
-                        <span> Lunes a viernes de 18 a 21 hs.</span>
-                    </p>
-                    <p>
-                        Teléfono:
-                        <span> (011) 4629 - 1781</span>
-                    </p>
-                    <p>
-                        Email:
-                        <span> cmfp2@yahoo.com</span>
-                    </p>
+                    <div>
+                        <b>Centro Municipal de Formación Profesional N°2</b>
+                    </div>
+                    <div>
+                        <b>Manuel Belgrano</b>
+                    </div>
+                    <div>
+                        <b>Dirección: </b>
+                        Maestra Cueto 750 - Morón
+                    </div>
+                    <div>
+                        <b>Horario de atención: </b>
+                        Lunes a viernes de 18 a 21 hs.
+                    </div>
+                    <div>
+                        <b>Teléfono: </b>
+                        (011) 4629 - 1781
+                    </div>
+                    <div>
+                        <b>Email: </b>
+                        cmfp2@yahoo.com
+                    </div>
                 </div>
                 <div className='nav-footer'>
                     <Nav footer={true} />
