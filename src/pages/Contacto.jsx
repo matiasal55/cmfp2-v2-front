@@ -2,6 +2,7 @@ import Main from '../components/Main';
 import Section from '../components/Section';
 import Campo from '../components/contacto/Campo';
 import background from '../assets/background/contacto.jpg';
+import Modal from '../components/contacto/Modal';
 import { useForm } from 'react-hook-form';
 import '../styles/pages/_contacto.scss';
 import { useState } from 'react';
@@ -51,7 +52,7 @@ const Contacto = () => {
                     </button>
                 </form>
             </Section>
-            {modal ? <h1>Muchas gracias</h1> : null}
+            {modal ? <Modal /> : null}
         </>
     );
 };
