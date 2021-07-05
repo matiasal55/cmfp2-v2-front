@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ButtonLink from './ButtonLink';
 
 const Nav = (props) => {
     const { footer, menu, scroll } = props;
@@ -51,9 +52,7 @@ const Nav = (props) => {
             </div>
             {!footer ? (
                 <div className='nav-items'>
-                    <Link to='/area-alumnos'>
-                        <div className='button button-first'>Area de Alumnos</div>
-                    </Link>
+                    <ButtonLink path='/area-alumnos' content='Area de Alumnos' />
                 </div>
             ) : null}
         </nav>

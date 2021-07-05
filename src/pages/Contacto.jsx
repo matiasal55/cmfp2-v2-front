@@ -3,6 +3,7 @@ import Section from '../components/Section';
 import Campo from '../components/contacto/Campo';
 import background from '../assets/background/contacto.jpg';
 import Modal from '../components/contacto/Modal';
+import Button from '../components/contacto/Button';
 import { useForm } from 'react-hook-form';
 import '../styles/pages/_contacto.scss';
 import { useState } from 'react';
@@ -44,12 +45,8 @@ const Contacto = () => {
                         <label for='mensaje'>Mensaje:</label>
                         <textarea placeholder='Ingrese su mensaje' />
                     </div>
-                    <button type='submit' className='button button-first'>
-                        Enviar
-                    </button>
-                    <button type='reset' className='button button-second'>
-                        Reestablecer
-                    </button>
+                    <Button content='Enviar' />
+                    <Button type='reset' color='second' content='Reestablecer' />
                 </form>
             </Section>
             {modal ? <Modal /> : null}

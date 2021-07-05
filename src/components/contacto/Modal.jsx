@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import ButtonLink from '../ButtonLink';
 import '../../styles/components/_modal.scss';
 
 const Modal = () => {
@@ -6,9 +6,7 @@ const Modal = () => {
         <div className='modal'>
             <div className='modal-content'>
                 <h2>Muchas gracias por el mensaje. Será respondido a la brevedad</h2>
-                <Link to='/'>
-                    <div className='button button-first'>Volver a Inicio</div>
-                </Link>
+                <ButtonLink path='/' content='Volver a Inicio' />
             </div>
         </div>
     );
