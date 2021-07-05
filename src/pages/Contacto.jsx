@@ -15,9 +15,20 @@ const Contacto = () => {
         formState: { errors },
     } = useForm();
     const [modal, setModal] = useState(false);
+    const [msgLength, setMsgLength] = useState(0);
+    const msgLengthMax = 500;
 
     const onSubmit = (data) => {
         setModal(true);
+    };
+
+    const handleChangeMsg = (event) => {
+        const length = event.target.textLength;
+        if (length <= msgLengthMax) setMsgLength(length);
+    };
+
+    const handlePressKey = (event) => {
+        if (msgLength >= msgLengthMax) event.preventDefault();
     };
 
     return (
@@ -44,7 +55,15 @@ const Contacto = () => {
                     <Campo label='asunto' campo='Asunto' placeholder='¿Por cuál motivo nos escribe?' register={register} errors={errors} />
                     <div className='campo'>
                         <label for='mensaje'>Mensaje:</label>
-                        <textarea placeholder='Ingrese su mensaje' {...register('mensaje', { required: true })} />
+                        <textarea
+                            placeholder='Ingrese su mensaje'
+                            {...register('mensaje', { required: true })}
+                            onChange={handleChangeMsg}
+                            onKeyPress={handlePressKey}
+                        />
+                        <div className={msgLength > msgLengthMax - 10 ? 'error' : null}>
+                            {msgLength} / {msgLengthMax} caracteres
+                        </div>
                         {errors.mensaje ? <div className='error'>Falta</div> : null}
                     </div>
                     <Button content='Enviar' />
