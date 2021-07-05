@@ -46,7 +46,9 @@ const Contacto = () => {
                         <textarea placeholder='Ingrese su mensaje' />
                     </div>
                     <Button content='Enviar' />
-                    <Button type='reset' color='second' content='Reestablecer' />
+                    <button type='reset' className='button button-second reestablecer'>
+                        Reestablecer
+                    </button>
                 </form>
             </Section>
             {modal ? <Modal /> : null}
