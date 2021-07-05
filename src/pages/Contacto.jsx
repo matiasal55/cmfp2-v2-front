@@ -30,20 +30,22 @@ const Contacto = () => {
                     <b>(011) 4629 - 1781</b>.
                 </p>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <Campo label='nombre' campo='Nombre' placeholder='Ingrese su nombre' register={register} />
-                    <Campo label='apellido' campo='Apellido' placeholder='Ingrese su apellido' register={register} />
-                    <Campo label='email' type='email' campo='Email' placeholder='usuario@correo.com' register={register} />
+                    <Campo label='nombre' campo='Nombre' placeholder='Ingrese su nombre' register={register} errors={errors} />
+                    <Campo label='apellido' campo='Apellido' placeholder='Ingrese su apellido' register={register} errors={errors} />
+                    <Campo label='email' type='email' campo='Email' placeholder='usuario@correo.com' register={register} errors={errors} />
                     <Campo
                         label='telefono'
                         type='number'
                         campo='Teléfono'
                         placeholder='Ingrese su teléfono, sin guiones y con código de área. Ej 1144440000'
                         register={register}
+                        errors={errors}
                     />
-                    <Campo label='asunto' campo='Asunto' placeholder='¿Por cuál motivo nos escribe?' register={register} />
+                    <Campo label='asunto' campo='Asunto' placeholder='¿Por cuál motivo nos escribe?' register={register} errors={errors} />
                     <div className='campo'>
                         <label for='mensaje'>Mensaje:</label>
-                        <textarea placeholder='Ingrese su mensaje' />
+                        <textarea placeholder='Ingrese su mensaje' {...register('mensaje', { required: true })} />
+                        {errors.mensaje ? <div className='error'>Falta</div> : null}
                     </div>
                     <Button content='Enviar' />
                     <button type='reset' className='button button-second reestablecer'>
