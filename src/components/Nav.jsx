@@ -51,7 +51,7 @@ const Nav = (props) => {
             </div>
             {!footer ? (
                 <div className='nav-items'>
-                    <Link to='/inscripcion'>
+                    <Link to='/area-alumnos'>
                         <div className='button button-first'>Area de Alumnos</div>
                     </Link>
                 </div>
