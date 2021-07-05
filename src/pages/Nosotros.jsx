@@ -1,6 +1,7 @@
 import Main from '../components/Main';
 import Section from '../components/Section';
 import background from '../assets/background/nosotros.jpg';
+import '../styles/components/_items.scss';
 
 const Nosotros = () => {
     return (
