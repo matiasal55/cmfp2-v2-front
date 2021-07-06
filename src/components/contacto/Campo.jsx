@@ -5,7 +5,7 @@ const Campo = (props) => {
 
     return (
         <div className='campo'>
-            <label for={label}>{campo}:</label>
+            <label htmlFor={label}>{campo}:</label>
             <input id={label} type={type} placeholder={placeholder} {...register(label, { required })} />
             {errors[label] ? <div className='error'>{errors[label].message}</div> : null}
         </div>
