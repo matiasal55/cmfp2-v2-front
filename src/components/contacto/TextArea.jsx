@@ -16,7 +16,7 @@ const TextArea = ({ errors, register }) => {
 
     return (
         <div className='campo'>
-            <label for='mensaje'>Mensaje:</label>
+            <label htmlFor='mensaje'>Mensaje:</label>
             <textarea
                 id='mensaje'
                 placeholder='Ingrese su mensaje'
