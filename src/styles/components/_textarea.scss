@@ -5,3 +5,9 @@ textarea {
     width: 50%;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    textarea {
+        width: 100%;
+    }
+}
