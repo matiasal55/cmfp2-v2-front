@@ -17,11 +17,17 @@ const TextArea = ({ errors, register }) => {
     return (
         <div className='campo'>
             <label for='mensaje'>Mensaje:</label>
-            <textarea placeholder='Ingrese su mensaje' {...register('mensaje', { required: true })} onChange={handleChangeMsg} onKeyPress={handlePressKey} />
+            <textarea
+                id='mensaje'
+                placeholder='Ingrese su mensaje'
+                {...register('mensaje', { required: true })}
+                onChange={handleChangeMsg}
+                onKeyPress={handlePressKey}
+            />
             <div className={msgLength > msgLengthMax - 10 ? 'error' : null}>
                 {msgLength} / {msgLengthMax} caracteres
             </div>
-            {errors.mensaje ? <div className='error'>Falta</div> : null}
+            {errors.mensaje ? <div className='error'>{errors.mensaje.message}</div> : null}
         </div>
     );
 };

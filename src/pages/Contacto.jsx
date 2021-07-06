@@ -8,13 +8,17 @@ import Button from '../components/contacto/Button';
 import { useForm } from 'react-hook-form';
 import '../styles/pages/_contacto.scss';
 import { useState } from 'react';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { validateFormContacto } from '../utils/validationSchema';
 
 const Contacto = () => {
     const {
         register,
         handleSubmit,
         formState: { errors },
-    } = useForm();
+    } = useForm({
+        resolver: yupResolver(validateFormContacto),
+    });
     const [modal, setModal] = useState(false);
 
     const onSubmit = (data) => {
