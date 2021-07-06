@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 
 const validateText = (msjError, min = 3, max = 20) => {
-    const matches = /^[A-Za-z ]+$/;
+    const matches = /^[A-Za-z\s]+$/;
     return yup
         .string()
         .trim()
