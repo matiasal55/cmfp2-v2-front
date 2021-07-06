@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "60e4b9572cb59e545c4d7333"
+  },
+  "id":2,
+  "titulo": "Auxiliar en Familia especializado en Adultos Mayores",
+  "contenidos": [
+    "Atención y cuidado de Personas Mayores: Establecimiento de Canales de Comunicación, Control de la alimentación, Higiene y Confort del Adulto, Cumplimiento de prescripciones médicas.",
+    "Socialización y Recreación: Facilitar la recreación del Adulto Mayor, Organizar y ejecutar actividades recreativas.",
+    "Gestionar trámites y documentación.",
+    "Diligenciar asistencia médica.",
+    "Mantenimiento y prevención en el hogar del adulto mayor."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Martes y Viernes",
+  "certificacion": "Auxiliar de Familia Especializado en Cuidados de Adultos Mayores.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-en-familia-especializado-en-adultos-mayores.jpg?alt=media&token=8c10cb5b-dfdf-4856-847f-84788b5cad23"
+},{
+  "_id": {
+    "$oid": "60e4bf649ff7cf6e9170ff81"
+  },
+  "titulo": "Asistente de estudio Jurídico y Notarial",
+  "id":1,
+  "contenidos": [
+    "El Derecho, Constitución.",
+    "Personas, contratos.",
+    "Derecho Previsional.",
+    "Práctica Notarial.",
+    "Derecho Laboral y Procesal."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Martes y Viernes",
+  "certificacion": "Asistente de Estudio Jurídico y Notarial.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-administrativo-y-contable.jpg?alt=media&token=4e2ab512-7873-44aa-b881-aba6806227f3"
+}]
