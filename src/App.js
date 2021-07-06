@@ -8,7 +8,7 @@ import Contacto from './pages/Contacto';
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter forceRefresh={true}>
             <ScrollToTop />
             <Layout>
                 <Switch>
