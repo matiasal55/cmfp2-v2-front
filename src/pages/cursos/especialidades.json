@@ -16,7 +16,7 @@
   "inscripcion": 1,
   "dias": "Martes y Viernes",
   "certificacion": "Auxiliar de Familia Especializado en Cuidados de Adultos Mayores.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-en-familia-especializado-en-adultos-mayores.jpg?alt=media&token=8c10cb5b-dfdf-4856-847f-84788b5cad23"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-en-familia-especializado-en-adultos-mayores.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e4bf649ff7cf6e9170ff81"
@@ -35,5 +35,5 @@
   "inscripcion": 1,
   "dias": "Martes y Viernes",
   "certificacion": "Asistente de Estudio Jurídico y Notarial.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-administrativo-y-contable.jpg?alt=media&token=4e2ab512-7873-44aa-b881-aba6806227f3"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-administrativo-y-contable.jpg?alt=media"
 }]
