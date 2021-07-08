@@ -9,11 +9,77 @@ const Template = () => {
     let data = cursos.filter((curso) => curso.id === id);
     data = data[0];
 
+    const mostrarInscripcion = (data) => {
+        const primerCuatrimestre = 'Noviembre del año anterior';
+        const segundoCuatrimestre = 'Julio';
+        if (data === 1) return <p>{primerCuatrimestre}</p>;
+        else if (data === 2) return <p>{segundoCuatrimestre}</p>;
+        else if (data === 3)
+            return (
+                <>
+                    <ul>
+                        <li>1° cuatrimestre: {primerCuatrimestre}</li>
+                        <li>2° cuatrimestre: {segundoCuatrimestre}</li>
+                    </ul>
+                    <br />
+                </>
+            );
+        else return null;
+    };
+
+    const mostrarEstudios = (estudios) => {
+        const primario = 'Estudios Primarios Completos';
+        const secundario = 'Estudios Secundarios completos';
+
+        if (estudios === 1) return <p>{primario}</p>;
+        else if (estudios === 2) return <p>{secundario}</p>;
+        else if (estudios === 3)
+            return (
+                <>
+                    <ul>
+                        <li>{primario}</li>
+                        <li>Montador Electricista</li>
+                    </ul>
+                    <br />
+                </>
+            );
+        else if (estudios === 4)
+            return (
+                <>
+                    <ul>
+                        <li>{primario}</li>
+                        <li>Montador de redes y telefonía (Básico) - Recomendado</li>
+                    </ul>
+                    <br />
+                </>
+            );
+        else return null;
+    };
+
+    const mostrarCertificado = (certificados) =>
+        typeof data.certificacion === 'object' ? (
+            <ul>
+                {data.certificacion.map((cert, index) => (
+                    <li key={index}>{cert}</li>
+                ))}
+            </ul>
+        ) : (
+            <p>{data.certificacion}</p>
+        );
+
     return (
         <>
             <Main bgImage={data.imgMain} />
             <Section>
                 <h1>{data.titulo}</h1>
+                {data.presentacion ? (
+                    <div>
+                        <h3>Presentación</h3>
+                        <p>
+                            <p>{data.presentacion}</p>
+                        </p>
+                    </div>
+                ) : null}
                 <div>
                     <h3>Contenidos:</h3>
                     <ul>
@@ -25,7 +91,7 @@ const Template = () => {
                 <br />
                 <div>
                     <h3>Requisitos:</h3>
-                    <p>Estudios {data.estudios === 1 ? 'Primarios' : 'Secundarios'} completos.</p>
+                    {mostrarEstudios(data.estudios)}
                 </div>
                 <div>
                     <h3>Duración:</h3>
@@ -37,11 +103,11 @@ const Template = () => {
                 </div>
                 <div>
                     <h3>Comienzo de Inscripción:</h3>
-                    <p>{data.inscripcion}</p>
+                    {mostrarInscripcion(data.inscripcion)}
                 </div>
                 <div>
                     <h3>Certificación otorgada:</h3>
-                    <p>{data.certificacion}</p>
+                    {mostrarCertificado(data.certificacion)}
                 </div>
             </Section>
         </>
