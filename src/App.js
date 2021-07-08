@@ -18,8 +18,6 @@ const App = () => {
                     <Route exact path='/' component={Index} />
                     <Route exact path='/cursos-especialidades' component={CursosEspecialidades} />
                     <Route exact path='/cursos-especialidades/:curso' component={TemplateCursos} />
-                    <Route exact path='/cursos-taller' component={CursosTaller} />
-                    <Route exact path='/cursos-taller/:curso' component={TemplateCursos} />
                     <Route exact path='/inscripcion' component={Inscripcion} />
                     <Route exact path='/nosotros' component={Nosotros} />
                     <Route exact path='/contacto' component={Contacto} />
