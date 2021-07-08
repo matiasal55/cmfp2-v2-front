@@ -2,7 +2,7 @@ import Main from '../../components/Main';
 import Section from '../../components/Section';
 import background from '../../assets/background/especialidades.jpg';
 import cursos from './especialidades.json';
-import Lista from './Lista';
+import Lista from '../../components/cursos/Lista';
 
 const CursosEspecialidades = () => {
     return (
