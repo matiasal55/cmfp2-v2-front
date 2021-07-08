@@ -6,7 +6,6 @@ import Inscripcion from './pages/Inscripcion';
 import Nosotros from './pages/Nosotros';
 import Contacto from './pages/Contacto';
 import CursosEspecialidades from './pages/cursos/CursosEspecialidades';
-import CursosTaller from './pages/cursos/CursosTaller';
 import TemplateCursos from './pages/cursos/Template';
 
 const App = () => {
