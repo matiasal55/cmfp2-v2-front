@@ -17,7 +17,8 @@
   "inscripcion": 1,
   "dias": "Martes y Viernes",
   "certificacion": "Auxiliar de Familia Especializado en Cuidados de Adultos Mayores.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-en-familia-especializado-en-adultos-mayores.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fauxiliar-en-familia-especializado-en-adultos-mayores.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fauxiliar-en-familia-especializado-en-adultos-mayores-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e4bf649ff7cf6e9170ff81"
@@ -36,7 +37,8 @@
   "inscripcion": 1,
   "dias": "Martes y Viernes",
   "certificacion": "Asistente de Estudio Jurídico y Notarial.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/asistente-juridico.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fasistente-juridico.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fasistente-juridico-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e6328562c7d75ea826f497"
@@ -60,7 +62,8 @@
     "Operador de PC.",
     "Operador de Software de Gestión Administrativo y Contable."
   ],
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-administrativo-y-contable.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fauxiliar-administrativo-y-contable.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fauxiliar-administrativo-y-contable-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e6393562c7d75ea826f498"
@@ -85,7 +88,8 @@
     "Viernes de 18 a 22:00 hs"
   ],
   "certificacion": "Capacitación en Cosmetóloga",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cosmetologia.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fcosmetologia.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fcosmetologia-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e639ce62c7d75ea826f499"
@@ -104,7 +108,8 @@
   "inscripcion": 1,
   "dias": "Lunes y Viernes",
   "certificacion": "Cerrajero",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cerrajero.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fcerrajero.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fcerrajero-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e63a6e62c7d75ea826f49a"
@@ -124,7 +129,8 @@
   "inscripcion": 3,
   "dias": "Lunes y Martes",
   "certificacion": "Autocad",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/autocad.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fautocad.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fautocad-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e63b2f62c7d75ea826f49b"
@@ -147,7 +153,8 @@
     "1B - Miercoles, Jueves y Viernes de 18 a 22:10 hs"
   ],
   "certificacion": "Montador Electricista.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/montador-electricista.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fmontador-electricista.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fmontador-electricista-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e63c0762c7d75ea826f49c"
@@ -171,7 +178,8 @@
     "1B - Miercoles, Jueves y Viernes de 18 a 22:10 hs"
   ],
   "certificacion": "Instalador Electricista.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/instalador-electricista.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Finstalador-electricista.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Finstalador-electricista-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e64cda62c7d75ea826f49d"
@@ -197,7 +205,8 @@
   "inscripcion": 1,
   "dias": "Lunes",
   "certificacion": "Fotógrafo",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/fotografia.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Ffotografia.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Ffotografia-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e657dd62c7d75ea826f49e"
@@ -220,7 +229,8 @@
   "inscripcion": 1,
   "dias": "A confirmar",
   "certificacion": "Gasista Domiciliario - Res CFE N° 246/15",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/gasista.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fgasista.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fgasista-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e6593862c7d75ea826f49f"
@@ -243,7 +253,8 @@
   "inscripcion": 1,
   "dias": "Martes",
   "certificacion": "Herrero",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/herreria.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fherreria.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fherreria-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e65a9562c7d75ea826f4a0"
@@ -262,7 +273,8 @@
   "inscripcion": 3,
   "dias": "Martes y Miercoles",
   "certificacion": "Instalador Sanitario",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/instalaciones-sanitarias.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Finstalaciones-sanitarias.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Finstalaciones-sanitarias-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e65bed62c7d75ea826f4a1"
@@ -284,7 +296,8 @@
     "1B - Lunes, Miercoles de 18 a 20:00 hs"
   ],
   "certificacion": "Interprete en lenguas de Señas.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/lenguaje-senias.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Flenguaje-senias.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Flenguaje-senias-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e65f8862c7d75ea826f4a2"
@@ -307,7 +320,8 @@
   "inscripcion": 1,
   "dias": "Jueves",
   "certificacion": "Montador de redes informáticas y Telefonía.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/montador-telefonia.png?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fmontador-telefonia.png?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fmontador-telefonia-thumbail.png?alt=media"
 },{
   "_id": {
     "$oid": "60e6604362c7d75ea826f4a3"
@@ -326,7 +340,8 @@
   "inscripcion": 1,
   "dias": "Miercoles, Jueves y Viernes",
   "certificacion": "Peluquero Unisex",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/peluqueria-unisex.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fpeluqueria-unisex.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fpeluqueria-unisex-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e6615f62c7d75ea826f4a4"
@@ -345,7 +360,8 @@
   "inscripcion": 3,
   "dias": "Viernes",
   "certificacion": "Proyecto Laboral",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/proyecto-laboral.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fproyecto-laboral.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fproyecto-laboral-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e6633062c7d75ea826f4a5"
@@ -372,7 +388,8 @@
     "Instalador de redes",
     "Supervisor de redes"
   ],
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/redes.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fredes.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fredes-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e665df62c7d75ea826f4a6"
@@ -392,7 +409,8 @@
   "inscripcion": 3,
   "dias": "Viernes",
   "certificacion": "Instalador de Alarmas.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/sistema-alarmas.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fsistema-alarmas.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fsistema-alarmas-thumbail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e666e362c7d75ea826f4a7"
@@ -421,5 +439,6 @@
   "inscripcion": 2,
   "dias": "Jueves",
   "certificacion": "Instalador y Administrador de Centrales Telefónicas TDM e IP-Nativas.",
-  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/telefonia-ip.jpg?alt=media"
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Ftelefonia-ip.jpg?alt=media",
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Ftelefonia-ip-thumbail.jpg?alt=media&token=4b698431-1eb2-4677-96dc-82c537b4ab82"
 }]
