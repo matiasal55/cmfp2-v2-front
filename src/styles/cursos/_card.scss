@@ -1,3 +1,5 @@
+@import '../variables';
+
 .imgCurso {
     max-width: 70vw;
     width: 400px;
@@ -8,4 +10,36 @@
 
 .cursos-card {
     margin-bottom: 2rem;
+    position: relative;
+
+    .titulo {
+        background-color: rgba($color: $rojo, $alpha: 0.8);
+        color: white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+        max-width: 70vw;
+        width: 400px;
+        height: 250px;
+        font-weight: bolder;
+
+        span {
+            padding: 1rem;
+        }
+    }
+
+    &:hover .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-device-width: 768px) {
+    .cursos-card .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
