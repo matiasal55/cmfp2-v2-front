@@ -14,13 +14,10 @@ const Requisitos = ({ requisitos }) => {
             );
         else if (estudios === 4)
             return (
-                <>
-                    <ul>
-                        <li>{primario}</li>
-                        <li>Montador de redes y telefonía (Básico) - Recomendado</li>
-                    </ul>
-                    <br />
-                </>
+                <ul>
+                    <li>{primario}</li>
+                    <li>Montador de redes y telefonía (Básico) - Recomendado</li>
+                </ul>
             );
         else return null;
     };
