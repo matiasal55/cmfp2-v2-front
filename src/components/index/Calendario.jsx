@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../../styles/index/_calendario.scss';
 
 const Calendario = () => {
-    const abierta = true;
+    const abierta = false;
 
     return (
         <div className='calendario'>
