@@ -5,7 +5,7 @@ const Lista = ({ cursos }) => {
     return (
         <div className='cursos-cards'>
             {cursos.map((curso) => (
-                <Card curso={curso} />
+                <Card key={curso.id} curso={curso} />
             ))}
         </div>
     );
