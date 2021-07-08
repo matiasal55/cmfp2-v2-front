@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ButtonLink from './ButtonLink';
+import '../styles/components/_nav.scss';
 
 const Nav = (props) => {
     const { footer, menu, scroll } = props;

@@ -36,38 +36,9 @@
             color: $a-scroll;
         }
     }
-
-    nav {
-        @include alineacion-menu;
-
-        .nav-items {
-            margin: 0px 10px;
-            font-weight: bold;
-
-            &.cursos-titulo {
-                cursor: pointer;
-            }
-
-            .cursos {
-                position: absolute;
-                display: none;
-                padding: 10px;
-                padding-left: 0px;
-                top: 40px;
-
-                &.mostrar {
-                    display: block;
-                }
-
-                .cursos-items {
-                    margin: 10px 0px;
-                }
-            }
-        }
-    }
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: $responsive) {
     .header {
         flex-direction: column;
 
@@ -85,58 +56,6 @@
             .boton-responsive {
                 display: block;
                 margin-left: 10px;
-            }
-        }
-
-        nav {
-            flex-direction: column;
-            background-color: $nav-bg-responsive;
-            color: white;
-            width: 100vw;
-
-            .nav-items {
-                margin: 10px 0px;
-                text-align: center;
-
-                a {
-                    color: $a-nav-responsive;
-                }
-
-                .cursos {
-                    width: 100vw;
-                    background-color: white;
-                    position: relative;
-                    text-align: center;
-                    top: 0;
-                    margin-top: 10px;
-
-                    .cursos-items {
-                        padding: 10px 0px;
-                        a {
-                            color: $a-cursos-responsive;
-                        }
-                    }
-                }
-
-                .cursos.responsive {
-                    display: block;
-                }
-            }
-
-            .button.button-first {
-                @include btn-area-menu-resp;
-                margin: 0;
-            }
-        }
-
-        .menu {
-            position: fixed;
-            top: -50%;
-            transition: all 0.5s;
-            z-index: 450;
-
-            &.responsive {
-                top: 56px;
             }
         }
     }
