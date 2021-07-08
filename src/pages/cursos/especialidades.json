@@ -2,8 +2,9 @@
   "_id": {
     "$oid": "60e4b9572cb59e545c4d7333"
   },
-  "id":2,
   "titulo": "Auxiliar en Familia especializado en Adultos Mayores",
+  "id": 3,
+  "presentacion": "La disminución de la mortalidad como consecuencia de los avances medicos y la generalización de hábitos más sanos se traducen en el aumento de la calidad de vida y un incremento de la esperanza de vida. En Argentina, el porcentaje de la población mayor de 65 años es del 13,4 %. Al no existir sistemas integrales e integrados de baja complejidad que asistan a las personas mayores con cierto grado de dependencia y fragilidad que le permitan continuar viviendo en sus hogares y evitar de este modo la institucionalización innecesaria, entre los servicios de baja complejidad, se encuentran los que realizan los auxiliares de familia especializados en cuidados de adultos mayores. Se los define como el conjunto de cuidados que se brindan a personas que por razones biológicas, psicológicas y/o sociales, no pueden realizar las tareas de la vida diaria por sí solos y necesitan ayuda para desarrollarlas. Estos cuidados son implementados por personal técnicamente capacitado para realizar actividades como la organización del hábitat, higiene y arreglo personal, preparación de alimentos, prevención de accidentes, administración de medicamentos por vía oral, colaboración con prácticas indicadas por profesionales, acompañamiento y asesoramiento en todas las actividades de la vida diaria e instrumentales, realización de trámites a las personas atendidas y actividades de recreación y de reinserción laboral y social.",
   "contenidos": [
     "Atención y cuidado de Personas Mayores: Establecimiento de Canales de Comunicación, Control de la alimentación, Higiene y Confort del Adulto, Cumplimiento de prescripciones médicas.",
     "Socialización y Recreación: Facilitar la recreación del Adulto Mayor, Organizar y ejecutar actividades recreativas.",
@@ -22,7 +23,7 @@
     "$oid": "60e4bf649ff7cf6e9170ff81"
   },
   "titulo": "Asistente de estudio Jurídico y Notarial",
-  "id":1,
+  "id": 1,
   "contenidos": [
     "El Derecho, Constitución.",
     "Personas, contratos.",
@@ -35,5 +36,390 @@
   "inscripcion": 1,
   "dias": "Martes y Viernes",
   "certificacion": "Asistente de Estudio Jurídico y Notarial.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/asistente-juridico.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6328562c7d75ea826f497"
+  },
+  "titulo": " Auxiliar Administrativo y Contable",
+  "id": 2,
+  "contenidos": [
+    "RRHH. Sociedades.",
+    "Documentos Comerciales.",
+    "Sociedades.",
+    "Liquidación de Sueldos.",
+    "Sistema Tango."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Lunes, Martes, Miercoles y Jueves",
+  "certificacion": [
+    "Auxiliar Administrativo.",
+    "Auxiliar Contable.",
+    "Operador de PC.",
+    "Operador de Software de Gestión Administrativo y Contable."
+  ],
   "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/auxiliar-administrativo-y-contable.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6393562c7d75ea826f498"
+  },
+  "titulo": "Capacitación en Cosmetología",
+  "id": 4,
+  "contenidos": [
+    "Estructura de la Piel.",
+    "Cosméticos, Máscaras.",
+    "Masajes Faciales.",
+    "Prácticas Hospitalaria",
+    "Seborrea, Acné. Lifting.",
+    "Aparatología"
+  ],
+  "estudios": 1,
+  "duracion": 3,
+  "inscripcion": 1,
+  "dias": [
+    "1A -  Martes de 18:00 a 22:10hs",
+    "1B - Jueves de 18:00 a 22:10 hs",
+    "2° - Lunes  de 18:00 a 22:10 hs",
+    "Viernes de 18 a 22:00 hs"
+  ],
+  "certificacion": "Capacitación en Cosmetóloga",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cosmetologia.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e639ce62c7d75ea826f499"
+  },
+  "titulo": "Cerrajero",
+  "id": 5,
+  "contenidos": [
+    "Domiciliaria y del Automotor.",
+    "Herramientas, Máquinas.",
+    "Duplicadoras.",
+    "Cerraduras, Combinaciones.",
+    "Tambores Doble Paleta."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Lunes y Viernes",
+  "certificacion": "Cerrajero",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cerrajero.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e63a6e62c7d75ea826f49a"
+  },
+  "titulo": "Diseño Proyectual Asistido - AUTOCAD 2D",
+  "id": 6,
+  "contenidos": [
+    "Herramientas de dibujo: Línea, círculo, elipse, poli líneas de texto.",
+    "Herramientas de modificación: Borrar, copiar, escalar etc.",
+    "Sistemas de coordenadas, límites, bloques, atributos",
+    "Espacio modelo",
+    "Espacio papel",
+    "Acotación"
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 3,
+  "dias": "Lunes y Martes",
+  "certificacion": "Autocad",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/autocad.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e63b2f62c7d75ea826f49b"
+  },
+  "titulo": "Electricista Montador",
+  "id": 7,
+  "contenidos": [
+    "Circuitos Electricos.",
+    "Ley de Ohm.",
+    "Tableros (Montaje y Cableado).",
+    "Protecciones.",
+    "Distancia Entre Bocas.",
+    "Cableado"
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 1,
+  "dias": [
+    "1A - Lunes, Martes y Viernes de 18 a 22:10 hs",
+    "1B - Miercoles, Jueves y Viernes de 18 a 22:10 hs"
+  ],
+  "certificacion": "Montador Electricista.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/montador-electricista.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e63c0762c7d75ea826f49c"
+  },
+  "titulo": "Electricista Instalador",
+  "id": 8,
+  "contenidos": [
+    "Instalación Domiciliaria y Comercial",
+    "Reglamento según E.N.R.E.",
+    "Circuitos Trifásicos.",
+    "Factor de Potencia.",
+    "Manejo de Instrumentos.",
+    "Mediciones.",
+    "Prácticas, Proyectos."
+  ],
+  "estudios": 3,
+  "duracion": 1,
+  "inscripcion": 2,
+  "dias": [
+    "1A - Lunes, Martes y Viernes de 18 a 22:10 hs",
+    "1B - Miercoles, Jueves y Viernes de 18 a 22:10 hs"
+  ],
+  "certificacion": "Instalador Electricista.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/instalador-electricista.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e64cda62c7d75ea826f49d"
+  },
+  "titulo": "Fotografía",
+  "id": 9,
+  "presentacion": "Capturar un instante para siempre, y volver a recordarlo con solo mirar esa foto, construir un espacio de intercambio en el cual, mediante la practica de la Fotografía, los alumnos puedan ejercitar cierta sensibilidad social, necesaria para la formación profesional. Se Plantea entonces un espacio donde la practica, acompañada de la técnica, funcione como herramienta para despertar en aquellos que participan del curso un mundo nuevo de visión fotográfica, el cual les permitirá hacer imágenes que pongan en juego su subjetividad. contar una historia en cada imagen que sea única e irrepetible.",
+  "contenidos": [
+    "La cámara y sus componentes",
+    "Diferentes tipos de cámaras",
+    "Exposición",
+    "Enfoque",
+    "Profundidad de campo",
+    "Iluminacion",
+    "Sensibilidad en películas fotográficas",
+    "Adobe Photoshop",
+    "Ajustes sobre la imagen",
+    "Retoques sobre la imagen",
+    "Preparar archivo para llevar al laboratorio"
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Lunes",
+  "certificacion": "Fotógrafo",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/fotografia.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e657dd62c7d75ea826f49e"
+  },
+  "titulo": "Gasista Domiciliario",
+  "id": 10,
+  "contenidos": [
+    "Gas natural y envasado.",
+    "Cañerías internas.",
+    "Seguridad.",
+    "Instalación, Cálculos.",
+    "Artefactos.",
+    "Colocación de artefactos.",
+    "Ventilaciones.",
+    "Reglamentación.",
+    "Seguridad e Higiene."
+  ],
+  "estudios": 2,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "A confirmar",
+  "certificacion": "Gasista Domiciliario - Res CFE N° 246/15",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/gasista.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6593862c7d75ea826f49f"
+  },
+  "titulo": "Herreria",
+  "id": 11,
+  "contenidos": [
+    "El Material: Nociones generales, Caños, Perfiles, Formas Comerciales",
+    "Herramientas y sus características: Aplicación, Conservación",
+    "Seguridad en el uso de Herramientas Manuales y Eléctricas",
+    "Corte y preparación de Piezas",
+    "Soldadura: Tipos y Especificaciones",
+    "Pulido de Piezas",
+    "Terminación",
+    "Fragua",
+    "Forjado: Apliques en hierro forjado, Arañas."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Martes",
+  "certificacion": "Herrero",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/herreria.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e65a9562c7d75ea826f4a0"
+  },
+  "titulo": "Instalaciones Sanitarias",
+  "id": 12,
+  "contenidos": [
+    "Instalaciones Primarias y secundarias: Termo Fusión de Cañerías",
+    "Agua Fría y Caliente: Termotanques y Calefones.",
+    "Calefacción Por Piso Radiante.",
+    "Instalaciones Especiales.",
+    "Sistemas de Riego: Difusores y Aspersores, Diseño y automatización."
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 3,
+  "dias": "Martes y Miercoles",
+  "certificacion": "Instalador Sanitario",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/instalaciones-sanitarias.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e65bed62c7d75ea826f4a1"
+  },
+  "titulo": "Interpretación de Lenguas de Señas",
+  "id": 13,
+  "contenidos": [
+    "La lengua de señas.",
+    "La casa, la familia, vestimenta.",
+    "Alimentos, provincias.",
+    "Animales, Medios de locomoción.",
+    "Interpretación."
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": [
+    "1A - Lunes, Miercoles de 18 a 20:00 hs",
+    "1B - Lunes, Miercoles de 18 a 20:00 hs"
+  ],
+  "certificacion": "Interprete en lenguas de Señas.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/lenguaje-senias.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e65f8862c7d75ea826f4a2"
+  },
+  "titulo": "Montador de Redes Informáticas y Telefonía (Básico)",
+  "id": 14,
+  "presentacion": "Curso teórico, práctico que abarca la telefonía tradicional y redes informáticas básicas (montaje, cableado e instalación básica). Este curso permite al alumno obtener los conocimientos para poder trabajar sobre cableados telefónicos tradicionales y cableados de redes de datos domiciliarios y de pequeñas oficinas. además de adquirir los conocimientos sobre la operación y facilidades de pequeñas centrales telefónicas digitales. Desde otra perspectiva, este curso es el trampolín a los cursos de Telefonía IP, Instalación y Administración de Redes Informáticas Avanzado y Sistemas de Alarmas dictados en el 2do Cuatrimestre. El desarrollo del curso presenta los componentes de estas tecnologías, complementado con prácticas de cableado y armado de conectores.",
+  "contenidos": [
+    "Abordaje de las redes concurrentes.",
+    "El Teléfono, Telefonía tradicional.",
+    "Cableado telefónico.",
+    "Redes y dispositivos de conectividad.",
+    "Cableado estructurado y armado de conectores.",
+    "Tecnicas de cableados.",
+    "Cableados de pequeñas oficinas.",
+    "Normativas."
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 1,
+  "dias": "Jueves",
+  "certificacion": "Montador de redes informáticas y Telefonía.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/montador-telefonia.png?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6604362c7d75ea826f4a3"
+  },
+  "titulo": "Peluquería Unisex",
+  "id": 15,
+  "contenidos": [
+    "Color",
+    "Cortes",
+    "Peinados",
+    "Botox Capilar",
+    "Alisado"
+  ],
+  "estudios": 1,
+  "duracion": 2,
+  "inscripcion": 1,
+  "dias": "Miercoles, Jueves y Viernes",
+  "certificacion": "Peluquero Unisex",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/peluqueria-unisex.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6615f62c7d75ea826f4a4"
+  },
+  "titulo": "Proyecto Laboral",
+  "id": 16,
+  "contenidos": [
+    "Organizaciones",
+    "Empresas y Microemprendimientos",
+    "Impuestos",
+    "RRHH",
+    "Costos y Erogaciones"
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 3,
+  "dias": "Viernes",
+  "certificacion": "Proyecto Laboral",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/proyecto-laboral.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e6633062c7d75ea826f4a5"
+  },
+  "titulo": "Redes Informáticas (avanzado)",
+  "id": 17,
+  "presentacion": "Las redes informáticas nos rodean desde años, nos brindan el soporte a los desafios de la vida cotidiana. Este curso, te proveerá de herramientas que te sirvan para desenvolverte con seguridad en el rubro, resolviendo problemas de hardware y software y realizando mantenimientos informáticos integrales en empresas o particulares. Obtendrás conocimientos generales sobre, instalación y configuración de Sistemas informáticos de red.",
+  "contenidos": [
+    "Abordaje de las redes concurrentes",
+    "Aplicaciones y protocolos de red",
+    "Direccionamiento IP",
+    "Subredes",
+    "Dispositivos Finales e intermedios",
+    "Routers, Switches y Access Point",
+    "Direccionamiento de puertos",
+    "Seguridad",
+    "VLAN, VPN"
+  ],
+  "estudios": 4,
+  "duracion": 1,
+  "inscripcion": 2,
+  "dias": "Martes y Miercoles",
+  "certificacion": [
+    "Instalador de redes",
+    "Supervisor de redes"
+  ],
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/redes.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e665df62c7d75ea826f4a6"
+  },
+  "titulo": "Sistemas de Alarmas",
+  "id": 18,
+  "contenidos": [
+    "Introduccion a la electrónica.",
+    "Detectores.",
+    "Centrales  de alarmas.",
+    "Camaras de seguridad.",
+    "Configuración.",
+    "Proyecto de un SES."
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 3,
+  "dias": "Viernes",
+  "certificacion": "Instalador de Alarmas.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/sistema-alarmas.jpg?alt=media"
+},{
+  "_id": {
+    "$oid": "60e666e362c7d75ea826f4a7"
+  },
+  "titulo": " Telefonía IP y mensajería Unificada",
+  "id": 19,
+  "presentacion": "Curso teórico, práctico que abarca la telefonía tradicional (montaje cableado e interfases) hasta las tecnologías de Telefonía IP y comunicaciones unificadas desde un punto de vista objetivo que permite aplicar una solución adecuada para cada caso. El curso ayuda a evaluar correctamente el tamaño de un proyecto de Telefonía como así también los beneficios brindados por las soluciones de centrales comerciales (Pej.Panasonic) o soluciones abiertas de Telefonía IP como Asterisk / Issabel. El desarrollo del curso presenta los componentes de estas tecnologías, complementado con prácticas de laboratorio con equipos Comerciales y Open Source mostrando como pueden integrarse para brindar una solución completa y apropiada de telefonía y video llamada.",
+  "contenidos": [
+    "El Teléfono, Telefonía tradicional.",
+    "Centrales telefónicas Privadas y públicas.",
+    "Cableado",
+    "Modulación PCM, Centrales Telefónicas TDM.",
+    "Líneas de Subscriptor FXS, Líneas FXO.",
+    "E1, R2MFC, DTMF, ISDN, ETSI, QSIG",
+    "Redes conmutadas por paquetes.",
+    "Telefonía IP, CODEC, Protocolo SIP.",
+    "Mensajería Unificada.",
+    "Centrales IP Comerciales, Panasonic, Yeastar, Grandstream.",
+    "Centrales IP Nativas Open Source, Asterisk, Elastix, Issabel, Skype.",
+    "Telefonos IP, SoftPhones.",
+    "Call Center, Video llamada.",
+    "Redes de voz IP."
+  ],
+  "estudios": 1,
+  "duracion": 1,
+  "inscripcion": 2,
+  "dias": "Jueves",
+  "certificacion": "Instalador y Administrador de Centrales Telefónicas TDM e IP-Nativas.",
+  "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/telefonia-ip.jpg?alt=media"
 }]
