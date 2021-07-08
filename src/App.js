@@ -8,6 +8,7 @@ import Contacto from './pages/Contacto';
 import CursosEspecialidades from './pages/cursos/CursosEspecialidades';
 import TemplateCursos from './pages/cursos/Template';
 import NotFound from './components/NotFound';
+import Construccion from './components/Construccion';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                     <Route exact path='/inscripcion' component={Inscripcion} />
                     <Route exact path='/nosotros' component={Nosotros} />
                     <Route exact path='/contacto' component={Contacto} />
+                    <Route exact path='/area-alumnos' component={Construccion} />
                     <Route component={NotFound} />
                 </Switch>
             </Layout>
