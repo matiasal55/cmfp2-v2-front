@@ -4,7 +4,11 @@
 
 Producción: https://cmfp2.vercel.app/
 
-### Historia:
+## Descripción:
+
+Sitio web realizado con ReactJS. Contiene una Home con información general, los detalles de los cursos, información más detallada sobre la inscripción y acerca de la institución y un formulario para contactarse con la misma.
+
+## Historia:
 
 Durante parte de 2018 y 2019 realicé los cursos de Redes Informáticas y Telefonía IP en el Centro de Formación mencionado. Los mismos fueron finalizados de manera exitosa y aprendí mucho en ambos cursos. Si bien no me dediqué a profesiones vinculadas a lo cursado, mucha de la información enriqueció mi carrera como desarrollador web.
 
@@ -69,7 +73,7 @@ Nosotros:
 
 ![Nosotros](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/06%20-%20nosotros.png)
 
-Contacto:
+Contacto (con validaciones):
 
 ![Contacto](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/07%20-%20contacto.png)
 
