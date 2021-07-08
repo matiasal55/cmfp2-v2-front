@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# CMFP 2 - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Proyecto de sitio web del Centro Municipal de Formación Profesional N°2 - Manuel Belgrano, ubicado en Morón (Buenos Aires, Argentina).
 
-## Available Scripts
+Producción: https://cmfp2.vercel.app/
 
-In the project directory, you can run:
+### Historia:
+
+Durante parte de 2018 y 2019 realicé los cursos de Redes Informáticas y Telefonía IP en el Centro de Formación mencionado. Los mismos fueron finalizados de manera exitosa y aprendí mucho en ambos cursos. Si bien no me dediqué a profesiones vinculadas a lo cursado, mucha de la información enriqueció mi carrera como desarrollador web.
+
+En 2020 como parte de mi aprendizaje acerca del uso de tecnologías modernas de desarrollo web elaboré la primera versión de este proyecto con transpiladores como Pug, Sass y Babel, usando Javascript en su versión ECMAScript 6. Además se trabajó con Webpack para modularizar el código. Si bien el sitio quedó en buenas condiciones, era consciente que tenía mucho para mejorar.
+
+En 2021 aprendí más acerca de React y creí que era un buen momento para rehacer el proyecto con esta librería, con el agregado del backend ya que sabía acerca de NodeJS. Al principio el traspaso de código de un lenguaje a otro fue difícil ya que en algunas partes no comprendía qué había hecho. Con los días pude acomodar las acciones, algunas repensandolas desde el lado de React. Y se pudo realizar en dos semanas la primera parte que abarca la parte de Frontend, pudiendo ser desplegada exitosamente.
+
+El proyecto continúa con el desarrollo del backend.
+
+La idea de este proyecto sirve como proyecto personal y a la vez será ofrecido a la institución, mediante el profesor de ambos cursos con quien tuve una excelente relación.
+
+## Comandos a utilizar
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia la aplicación en modo desarrollador. La misma se verá en http://localhost:3000
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Realiza el build del proyecto para su puesta en Producción.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Herramientas utilizadas:
 
-### `npm run eject`
+<div>
+    <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+    <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-   ReactJS
+-   React Router
+-   Sass
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Screenshots
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Nota: El menú oscuro se puede apreciar cuando se desplaza por la página, no al comienzo.
 
-## Learn More
+Home:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Home](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/01%20-%20home.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contenidos de section y Footer:
 
-### Code Splitting
+![Section - Footer](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/02%20-%20section%20footer.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Página web completa:
 
-### Analyzing the Bundle Size
+![Full](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/03%20-%20total.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cursos:
 
-### Making a Progressive Web App
+![Cursos](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/04%20-%20cursos.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Inscripción:
 
-### Advanced Configuration
+![Inscripcion](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/05%20-%20inscripcion.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Nosotros:
 
-### Deployment
+![Nosotros](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/06%20-%20nosotros.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contacto:
 
-### `npm run build` fails to minify
+![Contacto](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/07%20-%20contacto.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr>
+
+<img alt="GitHub" src="https://img.shields.io/github/license/matiasal55/cmfp2-v2-front?style=for-the-badge">
