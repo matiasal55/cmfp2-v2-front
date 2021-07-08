@@ -109,7 +109,7 @@
   "dias": "Lunes y Viernes",
   "certificacion": "Cerrajero",
   "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Fcerrajero.jpg?alt=media",
-  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fcerrajero-thumbail.jpg?alt=media"
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Fcerrajero-thumbnail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e63a6e62c7d75ea826f49a"
@@ -274,7 +274,7 @@
   "dias": "Martes y Miercoles",
   "certificacion": "Instalador Sanitario",
   "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Finstalaciones-sanitarias.jpg?alt=media",
-  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Finstalaciones-sanitarias-thumbail.jpg?alt=media"
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Finstalaciones-sanitarias-thumbnail.jpg?alt=media"
 },{
   "_id": {
     "$oid": "60e65bed62c7d75ea826f4a1"
@@ -440,5 +440,5 @@
   "dias": "Jueves",
   "certificacion": "Instalador y Administrador de Centrales Telefónicas TDM e IP-Nativas.",
   "imgMain": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Ffull%2Ftelefonia-ip.jpg?alt=media",
-  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Ftelefonia-ip-thumbail.jpg?alt=media&token=4b698431-1eb2-4677-96dc-82c537b4ab82"
+  "thumbnail": "https://firebasestorage.googleapis.com/v0/b/cmfp2-cursos.appspot.com/o/cursos%2Fthumbnails%2Ftelefonia-ip-thumbnail.jpg?alt=media"
 }]
