@@ -20,6 +20,7 @@ const App = () => {
                     <Route exact path='/cursos-especialidades' component={CursosEspecialidades} />
                     <Route exact path='/cursos-especialidades/:curso' component={TemplateCursos} />
                     <Route exact path='/inscripcion' component={Inscripcion} />
+                    <Route exact path='/inscripcion/sistema' component={Construccion} />
                     <Route exact path='/nosotros' component={Nosotros} />
                     <Route exact path='/contacto' component={Contacto} />
                     <Route exact path='/area-alumnos' component={Construccion} />
