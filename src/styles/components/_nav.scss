@@ -1,6 +1,6 @@
 @import '../mixins';
 
-.menu {
+.header .menu {
     @include alineacion-menu;
 
     .nav-items {
@@ -30,7 +30,7 @@
 }
 
 @media (max-device-width: $responsive) {
-    .menu {
+    .header .menu {
         flex-direction: column;
         background-color: $nav-bg-responsive;
         color: white;
@@ -39,7 +39,6 @@
         top: -50%;
         transition: all 0.5s;
         z-index: 450;
-        border-bottom: 1px solid white;
 
         &.responsive {
             top: 56px;
@@ -63,7 +62,6 @@
 
                 .cursos-items {
                     padding: 10px 0px;
-
                     a {
                         color: $a-cursos-responsive;
                     }
