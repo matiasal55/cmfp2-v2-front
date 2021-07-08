@@ -7,7 +7,7 @@ const Footer = () => {
     const [scroll, setScroll] = useState(false);
 
     useEffect(() => {
-        const scrollMax = window.screen.height * 0.65;
+        const scrollMax = window.screen.height / 9;
         window.addEventListener('scroll', () => {
             setScroll(scrollFade(scrollMax));
         });
