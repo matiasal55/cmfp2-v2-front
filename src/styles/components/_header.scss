@@ -1,21 +1,4 @@
-@mixin alineacion-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-@mixin btn-area-menu-resp {
-    background-color: white;
-    color: red;
-}
-
-$opacidad: rgba(0, 0, 0, 0.7);
-$a-scroll: white;
-$button-responsive: white;
-$header-bg-responsive: black;
-$nav-bg-responsive: red;
-$a-nav-responsive: white;
-$a-cursos-responsive: red;
+@import '../mixins';
 
 .header {
     background: none;
