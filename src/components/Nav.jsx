@@ -24,9 +24,6 @@ const Nav = (props) => {
                         <div className='cursos-items'>
                             <Link to='/cursos-especialidades'>Cursos Especialidades</Link>
                         </div>
-                        <div className='cursos-items'>
-                            <Link to='/cursos-taller'>Cursos Taller</Link>
-                        </div>
                     </div>
                 </div>
             ) : (
@@ -36,9 +33,6 @@ const Nav = (props) => {
                     </div>
                     <div className='nav-items'>
                         <Link to='/cursos-especialidades'>Cursos Especialidades</Link>
-                    </div>
-                    <div className='nav-items'>
-                        <Link to='/cursos-taller'>Cursos Taller</Link>
                     </div>
                 </>
             )}
