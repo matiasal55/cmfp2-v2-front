@@ -9,6 +9,7 @@ import CursosEspecialidades from './pages/cursos/CursosEspecialidades';
 import TemplateCursos from './pages/cursos/Template';
 import NotFound from './components/NotFound';
 import Construccion from './components/Construccion';
+import Noticias from './pages/Noticias';
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                     <Route exact path='/nosotros' component={Nosotros} />
                     <Route exact path='/contacto' component={Contacto} />
                     <Route exact path='/area-alumnos' component={Construccion} />
+                    <Route exact path='/noticias' component={Noticias} />
                     <Route component={NotFound} />
                 </Switch>
             </Layout>
