@@ -1,7 +1,7 @@
 import Main from '../../components/Main';
 import Section from '../../components/Section';
 import background from '../../assets/background/especialidades.jpg';
-import cursos from './especialidades.json';
+import cursos from '../../components/cursos/especialidades.json';
 import Lista from '../../components/cursos/Lista';
 import { useState, useEffect } from 'react';
 import Spinner from '../../components/Spinner';

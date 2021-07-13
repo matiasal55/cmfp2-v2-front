@@ -1,13 +1,13 @@
 import { useParams } from 'react-router-dom';
 import Main from '../../components/Main';
 import Section from '../../components/Section';
-import cursos from './especialidades.json';
+import cursos from '../../components/cursos/especialidades.json';
 import Contenidos from '../../components/cursos/Contenidos';
 import Presentacion from '../../components/cursos/Presentacion';
 import Requisitos from '../../components/cursos/Requisitos';
 import Duracion from '../../components/cursos/Duracion';
 import Inscripcion from '../../components/cursos/Inscripcion';
-import Certificacion from './Certificacion';
+import Certificacion from '../../components/cursos/Certificacion';
 import Dias from '../../components/cursos/Dias';
 import '../../styles/components/_items.scss';
 
