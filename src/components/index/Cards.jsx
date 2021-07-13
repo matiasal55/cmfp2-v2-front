@@ -2,6 +2,7 @@ import Img01 from '../../assets/cards/01.png';
 import Img02 from '../../assets/cards/02.png';
 import Img03 from '../../assets/cards/03.png';
 import Img04 from '../../assets/cards/04.png';
+import Section from '../Section';
 import '../../styles/index/_cards.scss';
 
 const Cards = (props) => {
@@ -32,7 +33,7 @@ const Cards = (props) => {
     const cards = [card_1, card_2, card_3, card_4];
 
     return (
-        <>
+        <Section>
             <h1>¿Por qué cursar?</h1>
             <div className='section1-cards'>
                 {cards.map((card, index) => (
@@ -43,7 +44,7 @@ const Cards = (props) => {
                     </div>
                 ))}
             </div>
-        </>
+        </Section>
     );
 };
 
