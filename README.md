@@ -3,6 +3,7 @@
 ## Proyecto de sitio web del Centro Municipal de Formación Profesional N°2 - Manuel Belgrano, ubicado en Morón (Buenos Aires, Argentina).
 
 Producción: https://cmfp2.vercel.app/
+Estado: Finalizado
 
 ## Descripción:
 
