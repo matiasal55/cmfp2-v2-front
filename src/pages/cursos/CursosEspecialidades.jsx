@@ -1,30 +1,24 @@
 import Main from '../../components/Main';
 import Section from '../../components/Section';
 import background from '../../assets/background/especialidades.jpg';
-// import cursos from '../../components/cursos/especialidades.json';
 import Lista from '../../components/cursos/Lista';
+import { especialidades as cursos, especialidades } from '../../components/cursos/getCursos';
 import { useState, useEffect } from 'react';
 import Spinner from '../../components/Spinner';
-import { getHandler } from '../../utils/requestHandler';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 const CursosEspecialidades = () => {
     const [loading, setLoading] = useState(true);
     const [cursos, setCursos] = useState([]);
 
-    const prueba = async () => {
-        try {
-            const lista = await getHandler('/cursos/especialidades');
-            setCursos(lista);
-        } catch (e) {
-            setCursos([]);
-        } finally {
-            setLoading(false);
-        }
+    const listaCursos = async () => {
+        const lista = await especialidades();
+        setCursos(lista);
+        setLoading(false);
     };
 
     useEffect(() => {
-        prueba();
+        listaCursos();
     }, []);
 
     return (
