@@ -20,3 +20,14 @@ const getData = async (section) => {
         return lista;
     }
 };
+
+export const getCurso = async (section, id) => {
+    let curso;
+    try {
+        curso = await getHandler(`/cursos/${section}/${id}`);
+    } catch (e) {
+        curso = {};
+    } finally {
+        return curso;
+    }
+};
