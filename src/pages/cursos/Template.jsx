@@ -11,8 +11,8 @@ import Dias from '../../components/cursos/Dias';
 import { getCurso } from '../../components/cursos/getCursos';
 import '../../styles/components/_items.scss';
 import { useEffect, useState } from 'react';
-import Spinner from '../../components/Spinner';
 import NotFound from '../../components/NotFound';
+import LoadingData from '../../components/LoadingData';
 
 const Template = ({ section }) => {
     const [data, setData] = useState({});
@@ -36,22 +36,16 @@ const Template = ({ section }) => {
         <>
             <Main bgImage={data.imgMain} />
             <Section>
-                {loading ? (
-                    <Spinner />
-                ) : data ? (
-                    <>
-                        <h1>{data.titulo}</h1>
-                        {data.presentacion ? <Presentacion texto={data.presentacion} /> : null}
-                        <Contenidos contenidos={data.contenidos} />
-                        <Requisitos requisitos={data.estudios} />
-                        <Duracion tiempo={data.duracion} />
-                        <Dias dias={data.dias} />
-                        <Inscripcion inscripcion={data.inscripcion} />
-                        <Certificacion certificados={data.certificacion} />
-                    </>
-                ) : (
-                    <h3>No hay información para el curso</h3>
-                )}
+                <LoadingData loading={loading} condition={data} message='No hay información para el curso'>
+                    <h1>{data.titulo}</h1>
+                    {data.presentacion ? <Presentacion texto={data.presentacion} /> : null}
+                    <Contenidos contenidos={data.contenidos} />
+                    <Requisitos requisitos={data.estudios} />
+                    <Duracion tiempo={data.duracion} />
+                    <Dias dias={data.dias} />
+                    <Inscripcion inscripcion={data.inscripcion} />
+                    <Certificacion certificados={data.certificacion} />
+                </LoadingData>
             </Section>
         </>
     );
