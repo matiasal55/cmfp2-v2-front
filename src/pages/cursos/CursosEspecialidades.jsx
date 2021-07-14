@@ -2,7 +2,7 @@ import Main from '../../components/Main';
 import Section from '../../components/Section';
 import background from '../../assets/background/especialidades.jpg';
 import Lista from '../../components/cursos/Lista';
-import { especialidades as cursos, especialidades } from '../../components/cursos/getCursos';
+import { especialidades } from '../../components/cursos/getCursos';
 import { useState, useEffect } from 'react';
 import Spinner from '../../components/Spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
