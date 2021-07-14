@@ -20,7 +20,9 @@ const App = () => {
                 <Switch>
                     <Route exact path='/' component={Index} />
                     <Route exact path='/cursos-especialidades' component={CursosEspecialidades} />
-                    <Route exact path='/cursos-especialidades/:curso' component={TemplateCursos} />
+                    <Route exact path='/cursos-especialidades/:curso'>
+                        <TemplateCursos section='especialidades' />
+                    </Route>
                     <Route exact path='/inscripcion' component={Inscripcion} />
                     <Route exact path='/inscripcion/sistema' component={Construccion} />
                     <Route exact path='/nosotros' component={Nosotros} />
