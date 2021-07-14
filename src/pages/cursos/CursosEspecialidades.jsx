@@ -18,14 +18,13 @@ const CursosEspecialidades = () => {
             setCursos(lista);
         } catch (e) {
             setCursos([]);
+        } finally {
+            setLoading(false);
         }
     };
 
     useEffect(() => {
         prueba();
-        setTimeout(() => {
-            setLoading(false);
-        }, 3000);
     }, []);
 
     return (
@@ -34,7 +33,7 @@ const CursosEspecialidades = () => {
             <Section>
                 <h1>Cursos Especialidades</h1>
                 <h3>Cursos con una duración de 4 meses a 2 años. Una vez finalizado ya podés trabajar de lo que aprendiste.</h3>
-                {loading ? <Spinner /> : <Lista cursos={cursos} />}
+                {loading ? <Spinner /> : cursos.length > 0 ? <Lista cursos={cursos} /> : <h3>No hay cursos disponibles</h3>}
             </Section>
         </>
     );
