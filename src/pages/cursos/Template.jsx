@@ -12,6 +12,7 @@ import { getCurso } from '../../components/cursos/getCursos';
 import '../../styles/components/_items.scss';
 import { useEffect, useState } from 'react';
 import Spinner from '../../components/Spinner';
+import NotFound from '../../components/NotFound';
 
 const Template = ({ section }) => {
     const [data, setData] = useState({});
@@ -28,6 +29,8 @@ const Template = ({ section }) => {
     useEffect(() => {
         request(section, id);
     }, []);
+
+    if (!data) return <NotFound />;
 
     return (
         <>
