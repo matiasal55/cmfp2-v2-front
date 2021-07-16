@@ -16,11 +16,35 @@ Durante parte de 2018 y 2019 realicé los cursos de Redes Informáticas y Telefo
 
 En 2020 como parte de mi aprendizaje acerca del uso de tecnologías modernas de desarrollo web elaboré la primera versión de este proyecto con transpiladores como Pug, Sass y Babel, usando Javascript en su versión ECMAScript 6. Además se trabajó con Webpack para modularizar el código. Si bien el sitio quedó en buenas condiciones, era consciente que tenía mucho para mejorar.
 
-En 2021 aprendí más acerca de React y creí que era un buen momento para rehacer el proyecto con esta librería, con el agregado del backend ya que sabía acerca de NodeJS. Al principio el traspaso de código de un lenguaje a otro fue difícil ya que en algunas partes no comprendía qué había hecho. Con los días pude acomodar las acciones, algunas repensandolas desde el lado de React. Y se pudo realizar en dos semanas la primera parte que abarca la parte de Frontend, pudiendo ser desplegada exitosamente.
+En 2021 aprendí más acerca de React y creí que era un buen momento para rehacer el proyecto con esta librería, con el agregado del backend ya que sabía acerca de NodeJS. Al principio el traspaso de código de un lenguaje a otro fue difícil ya que en algunas partes no comprendía qué había hecho. Con los días pude acomodar las acciones, algunas repensandolas desde el lado de React. Y se pudo realizar en dos semanas la primera parte que abarca la parte principal de Frontend, pudiendo ser desplegada exitosamente.
 
-El proyecto continúa con el desarrollo del backend.
+La idea de este proyecto sirve como proyecto personal y a la vez será ofrecido a la institución, mediante el profesor de ambos cursos realizados con quien tuve una excelente relación.
 
-La idea de este proyecto sirve como proyecto personal y a la vez será ofrecido a la institución, mediante el profesor de ambos cursos con quien tuve una excelente relación.
+<hr>
+
+## Etapas del proyecto:
+
+### Primera etapa:
+
+-   Estado: Completada
+-   Requerimientos:
+    -   Páginas de Home, Cursos Especialidades, Inscripción (información general, NO abarca el proceso de inscripción), Nosotros (About Us) y Contacto (sin acción real, sólo formulario).
+    -   Lista e información de cursos provistos por un archivo en formato JSON.
+    -   Estilos en la lista de cursos.
+    -   Responsive Design.
+    -   El formulario de contacto con validación de datos y mensajes de error.
+    -   Ruteo de páginas.
+    -   Creación de página de error (genérica o 400).
+
+### Segunda etapa:
+
+-   Estado: Completada
+-   Requerimientos:
+    -   Integración con API - Cursos (en conjunto con la creación del backend).
+    -   Manejo de errores 400 y 500 en la obtención de datos.
+    -   Páginas de errores 400 y 500.
+
+<hr>
 
 ## Comandos a utilizar
 
