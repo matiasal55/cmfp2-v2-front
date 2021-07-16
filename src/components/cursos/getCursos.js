@@ -15,7 +15,7 @@ const getData = async (section) => {
     try {
         lista = await getHandler('/cursos/' + section);
     } catch (e) {
-        lista = [];
+        lista = null;
     } finally {
         return lista;
     }
