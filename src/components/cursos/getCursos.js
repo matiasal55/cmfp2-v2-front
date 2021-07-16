@@ -26,7 +26,9 @@ export const getCurso = async (section, id) => {
     try {
         curso = await getHandler(`/cursos/${section}/${id}`);
     } catch (e) {
-        curso = {};
+        curso = {
+            error: e.response.status,
+        };
     } finally {
         return curso;
     }

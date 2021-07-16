@@ -11,7 +11,7 @@ import Dias from '../../components/cursos/Dias';
 import { getCurso } from '../../components/cursos/getCursos';
 import '../../styles/components/_items.scss';
 import { useEffect, useState } from 'react';
-import NotFound from '../../components/NotFound';
+import Error from '../../components/error/Index';
 import LoadingData from '../../components/LoadingData';
 
 const Template = ({ section }) => {
@@ -30,7 +30,7 @@ const Template = ({ section }) => {
         request(section, id);
     }, []);
 
-    if (!data) return <NotFound />;
+    if (data.error) return <Error error={data.error} />;
 
     return (
         <>
