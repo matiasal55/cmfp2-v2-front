@@ -1,7 +1,7 @@
-import Main from './Main';
-import Section from './Section';
-import Button from './ButtonLink';
-import background from '../assets/background/not-found.jpg';
+import Main from '../Main';
+import Section from '../Section';
+import Button from '../ButtonLink';
+import background from '../../assets/background/not-found.jpg';
 
 const NotFound = () => {
     return (

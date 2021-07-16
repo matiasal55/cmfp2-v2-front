@@ -7,7 +7,7 @@ import Nosotros from './pages/Nosotros';
 import Contacto from './pages/Contacto';
 import CursosEspecialidades from './pages/cursos/CursosEspecialidades';
 import TemplateCursos from './pages/cursos/Template';
-import NotFound from './components/NotFound';
+import NotFound from './components/error/NotFound';
 import Construccion from './components/Construccion';
 import Noticias from './pages/Noticias';
 import Noticia from './components/noticias/Noticia';
