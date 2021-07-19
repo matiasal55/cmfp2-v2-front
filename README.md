@@ -4,6 +4,8 @@
 
 **Producción:** https://cmfp2.vercel.app/
 
+**Backend:** https://github.com/matiasal55/cmfp2-v2-back-js
+
 ## Descripción:
 
 Sitio web realizado con ReactJS. Contiene una Home con información general, los detalles de los cursos, información más detallada sobre la inscripción y acerca de la institución y un formulario para contactarse con la misma.
