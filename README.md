@@ -1,10 +1,12 @@
 # CMFP 2 - Frontend
 
-## Proyecto de sitio web del Centro Municipal de Formación Profesional N°2 - Manuel Belgrano, ubicado en Morón (Buenos Aires, Argentina).
+## Frontend que forma parte del Proyecto de sitio web del Centro Municipal de Formación Profesional N°2 - Manuel Belgrano, ubicado en Morón (Buenos Aires, Argentina).
 
-Producción: https://cmfp2.vercel.app/
-Estado: Primera parte Finalizada. El sitio contiene noticias genéricas.
-Próximo paso: Backoffice - Noticias reales - Area Alumnos.
+**Producción:** https://cmfp2.vercel.app/
+
+**Estado:** Primera parte Finalizada. El sitio contiene noticias genéricas.
+
+**Próximo paso:** Backoffice - Noticias reales - Area Alumnos.
 
 ## Descripción:
 
@@ -73,33 +75,33 @@ Realiza el build del proyecto para su puesta en Producción.
 
 ## Screenshots
 
-Nota: El menú oscuro se puede apreciar cuando se desplaza por la página, no al comienzo.
+**Nota:** El menú oscuro se puede apreciar cuando se desplaza por la página, no al comienzo.
 
-Home:
+**Home:**
 
 ![Home](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/01%20-%20home.png)
 
-Contenidos de section y Footer:
+**Contenidos de section y Footer:**
 
 ![Section - Footer](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/02%20-%20section%20footer.png)
 
-Página web completa:
+**Página web completa:**
 
 ![Full](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/03%20-%20total.png)
 
-Cursos:
+**Cursos:**
 
 ![Cursos](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/04%20-%20cursos.png)
 
-Inscripción:
+**Inscripción:**
 
 ![Inscripcion](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/05%20-%20inscripcion.png)
 
-Nosotros:
+**Nosotros:**
 
 ![Nosotros](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/06%20-%20nosotros.png)
 
-Contacto (con validaciones):
+**Contacto** (con validaciones):
 
 ![Contacto](https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/07%20-%20contacto.png)
 
