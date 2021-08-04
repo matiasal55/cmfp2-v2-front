@@ -12,17 +12,18 @@ const Principales = () => {
     const ultimasNoticias = async () => {
         const lista = await getUltimasNoticias();
         setLoading(false);
-        setNoticias(lista);
+        if (lista.message) setNoticias([]);
+        else if (!lista) {
+            setNoticias([]);
+            setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
+        } else {
+            setNoticias(lista);
+        }
     };
 
     useEffect(() => {
         ultimasNoticias();
     }, []);
-
-    if (!noticias) {
-        setNoticias([]);
-        setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
-    }
 
     return (
         <div className='noticias-index'>

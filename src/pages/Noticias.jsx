@@ -14,18 +14,17 @@ const Noticias = () => {
 
     const listaNoticias = async () => {
         const lista = await getTodasNoticias();
-        setNoticias(lista);
         setLoading(false);
+        if (lista.message) setNoticias([]);
+        else if (!lista) {
+            setNoticias([]);
+            setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
+        } else setNoticias(lista);
     };
 
     useEffect(() => {
         listaNoticias();
     }, []);
-
-    if (!noticias) {
-        setNoticias([]);
-        setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
-    }
 
     return (
         <>
