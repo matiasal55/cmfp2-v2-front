@@ -1,13 +1,27 @@
 import { useParams } from 'react-router-dom';
-import noticias from './noticias.json';
 import Main from '../Main';
 import Section from '../Section';
+import { getNoticia } from './getNoticias';
+import { useEffect, useState } from 'react';
+import Internal from '../error/Internal';
+import NotFound from '../error/NotFound';
 
 const Noticia = () => {
     const { noticia } = useParams();
+    const [data, setData] = useState({});
     const id = parseInt(noticia.substring(0, noticia.indexOf('-')));
-    let data = noticias.filter((noticia) => noticia.id === id);
-    data = data[0];
+
+    const obtenerNoticia = async (id) => {
+        const noticia = await getNoticia(id);
+        setData(noticia);
+    };
+
+    useEffect(() => {
+        obtenerNoticia(id);
+    }, [id]);
+
+    if (data.message) return <NotFound />;
+    if (!data) return <Internal />;
 
     return (
         <>
