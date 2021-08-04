@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import LoadingData from '../LoadingData';
 import { getUltimasNoticias } from './getNoticias';
 import Card from './Card';
+import { Link } from 'react-router-dom';
 
 const Principales = () => {
     const [noticias, setNoticias] = useState([]);
@@ -25,7 +26,9 @@ const Principales = () => {
 
     return (
         <div className='noticias-index'>
-            <h2>Noticias</h2>
+            <Link to='/noticias'>
+                <h2>Noticias</h2>
+            </Link>
             <LoadingData loading={loading} condition={noticias && noticias.length > 0} message={errorMsg}>
                 {noticias ? noticias.map((noticia) => <Card noticia={noticia} />) : null}
             </LoadingData>
