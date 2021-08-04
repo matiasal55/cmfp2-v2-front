@@ -28,6 +28,10 @@
     .noticia {
         flex-direction: column;
 
+        .noticia-img {
+            width: 100%;
+        }
+
         .detalles {
             margin-left: 0;
             margin-top: 1rem;
