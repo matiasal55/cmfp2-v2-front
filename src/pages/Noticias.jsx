@@ -5,6 +5,7 @@ import background from '../assets/background/noticias.jpg';
 import { getTodasNoticias } from '../components/noticias/getNoticias';
 import { useEffect, useState } from 'react';
 import LoadingData from '../components/LoadingData';
+import '../styles/pages/_noticias.scss';
 
 const Noticias = () => {
     const [noticias, setNoticias] = useState([]);
@@ -31,9 +32,11 @@ const Noticias = () => {
             <Main bgImage={background} />
             <Section>
                 <h1>Noticias</h1>
-                <LoadingData loading={loading} condition={noticias && noticias.length > 0} message={errorMsg}>
-                    {noticias ? noticias.map((noticia, index) => <Card key={index} noticia={noticia} />) : null}
-                </LoadingData>
+                <div className='noticias'>
+                    <LoadingData loading={loading} condition={noticias && noticias.length > 0} message={errorMsg}>
+                        {noticias ? noticias.map((noticia, index) => <Card key={index} noticia={noticia} />) : null}
+                    </LoadingData>
+                </div>
             </Section>
         </>
     );

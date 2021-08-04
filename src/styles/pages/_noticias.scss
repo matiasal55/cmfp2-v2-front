@@ -1,0 +1,11 @@
+@import '../variables';
+
+.noticias {
+    width: 70%;
+}
+
+@media (max-device-width: $responsive) {
+    .noticias {
+        width: 100%;
+    }
+}
