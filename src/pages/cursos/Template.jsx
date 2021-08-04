@@ -28,7 +28,7 @@ const Template = ({ section }) => {
 
     useEffect(() => {
         request(section, id);
-    }, []);
+    }, [section, id]);
 
     if (data.error) return <Error error={data.error} />;
 
