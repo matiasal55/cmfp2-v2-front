@@ -5,6 +5,10 @@
     display: flex;
     justify-content: flex-start;
 
+    h2 {
+        margin-bottom: 0;
+    }
+
     .noticia-img {
         width: 300px;
         max-width: 80vw;
