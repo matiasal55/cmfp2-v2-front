@@ -7,15 +7,23 @@ import { useEffect, useState } from 'react';
 
 const Noticias = () => {
     const [noticias, setNoticias] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [errorMsg, setErrorMsg] = useState('No hay noticias por el momento');
 
     const listaNoticias = async () => {
         const lista = await getTodasNoticias();
+        setLoading(false);
         setNoticias(lista);
     };
 
     useEffect(() => {
         listaNoticias();
     }, []);
+
+    if (noticias.message) {
+        setNoticias([]);
+        setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
+    }
 
     return (
         <>
