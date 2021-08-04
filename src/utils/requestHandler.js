@@ -3,10 +3,14 @@ import { serverUrl } from '../config/config';
 
 export const getHandler = async (path) => {
     const response = await request('get', path);
-    return response.data;
+    return response;
 };
 
 const request = async (action, path) => {
-    const response = await axios[action](serverUrl + path);
-    return response;
+    try {
+        const response = await axios[action](serverUrl + path);
+        return response.data;
+    } catch (e) {
+        return false;
+    }
 };
