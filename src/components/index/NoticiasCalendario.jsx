@@ -7,7 +7,7 @@ const NoticiasCalendario = (props) => {
     return (
         <Section>
             <div className='noticias-calendario'>
-                <div className='noticias'>
+                <div className='noticias-index'>
                     <h2>Noticias</h2>
                     <Noticias />
                 </div>
