@@ -3,8 +3,7 @@ import Main from '../Main';
 import Section from '../Section';
 import { getNoticia } from './getNoticias';
 import { useEffect, useState } from 'react';
-import Internal from '../error/Internal';
-import NotFound from '../error/NotFound';
+import Error from '../error/Index';
 
 const Noticia = () => {
     const { noticia } = useParams();
@@ -20,8 +19,8 @@ const Noticia = () => {
         obtenerNoticia(id);
     }, [id]);
 
-    if (data.message) return <NotFound />;
-    if (!data) return <Internal />;
+    if (data.message) return <Error error={400} />;
+    if (!data) return <Error />;
 
     return (
         <>
