@@ -11,6 +11,7 @@ const request = async (action, path) => {
         const response = await axios[action](serverUrl + path);
         return response.data;
     } catch (e) {
+        if (e.response && e.response.data) return e.response.data;
         return false;
     }
 };
