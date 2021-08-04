@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import LoadingData from '../LoadingData';
 import { getUltimasNoticias } from './getNoticias';
 
@@ -27,10 +28,12 @@ const Principales = () => {
             <LoadingData loading={loading} condition={noticias && noticias.length > 0} message={errorMsg}>
                 {noticias
                     ? noticias.map((noticia) => (
-                          <div key={noticia.id} className='noticia-index'>
-                              <h3>{noticia.title}</h3>
-                              <p>{noticia.subtitle}</p>
-                          </div>
+                          <Link to={`/noticias/${noticia.id}-${noticia.title.replace(/ /g, '-')}`}>
+                              <div key={noticia.id} className='noticia-index'>
+                                  <h3>{noticia.title}</h3>
+                                  <p>{noticia.subtitle}</p>
+                              </div>
+                          </Link>
                       ))
                     : null}
             </LoadingData>
