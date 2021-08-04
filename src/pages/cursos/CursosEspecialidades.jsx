@@ -14,18 +14,17 @@ const CursosEspecialidades = () => {
 
     const listaCursos = async () => {
         const lista = await especialidades();
-        setCursos(lista);
         setLoading(false);
+        if (lista.message) setCursos([]);
+        else if (!lista) {
+            setCursos([]);
+            setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
+        } else setCursos(lista);
     };
 
     useEffect(() => {
         listaCursos();
     }, []);
-
-    if (!cursos) {
-        setCursos([]);
-        setErrorMsg('Hubo un problema interno. Intente más tarde. Disculpe las molestias');
-    }
 
     return (
         <>
