@@ -14,6 +14,7 @@ const Noticia = () => {
             <Main bgImage={data.mainImage} />
             <Section>
                 <h1>{data.title}</h1>
+                <h2>{data.subtitle}</h2>
                 <p>{data.content}</p>
             </Section>
         </>
