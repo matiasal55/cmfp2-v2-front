@@ -1,11 +1,21 @@
 import Main from '../components/Main';
 import Section from '../components/Section';
-// import noticias from '../components/noticias/noticias.json';
 import Card from '../components/noticias/Card';
 import background from '../assets/background/noticias.jpg';
+import { getTodasNoticias } from '../components/noticias/getNoticias';
+import { useEffect, useState } from 'react';
 
 const Noticias = () => {
-    const noticias = [];
+    const [noticias, setNoticias] = useState([]);
+
+    const listaNoticias = async () => {
+        const lista = await getTodasNoticias();
+        setNoticias(lista);
+    };
+
+    useEffect(() => {
+        listaNoticias();
+    }, []);
 
     return (
         <>
