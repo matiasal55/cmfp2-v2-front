@@ -7,7 +7,6 @@ const Card = ({ curso }) => {
     return (
         <div className='cursos-card'>
             <Link to={`${path}/${curso.id}-${curso.titulo.toLowerCase().replace(/ /g, '-')}`}>
-                {/* <img src={curso.thumbnail} className='imgCurso' alt={curso.titulo} /> */}
                 <div className='imgCurso' style={{ backgroundImage: `url(${curso.thumbnail})` }} />
                 <div className='titulo'>
                     <span>{curso.titulo}</span>
