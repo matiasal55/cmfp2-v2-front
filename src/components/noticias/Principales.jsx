@@ -24,11 +24,12 @@ const Principales = () => {
     }
 
     return (
-        <>
+        <div className='noticias-index'>
+            <h2>Noticias</h2>
             <LoadingData loading={loading} condition={noticias && noticias.length > 0} message={errorMsg}>
                 {noticias ? noticias.map((noticia) => <Card noticia={noticia} />) : null}
             </LoadingData>
-        </>
+        </div>
     );
 };
 

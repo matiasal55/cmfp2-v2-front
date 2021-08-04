@@ -7,10 +7,7 @@ const NoticiasCalendario = (props) => {
     return (
         <Section>
             <div className='noticias-calendario'>
-                <div className='noticias-index'>
-                    <h2>Noticias</h2>
-                    <Noticias />
-                </div>
+                <Noticias />
                 <Calendario />
             </div>
         </Section>
