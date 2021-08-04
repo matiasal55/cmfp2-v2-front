@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../../styles/noticias/_card.scss';
 
 const Card = ({ noticia }) => {
-    const fecha = new Date();
+    const fecha = new Date(noticia.date);
 
     return (
         <Link to={`/noticias/${noticia.id}-${noticia.title.replace(/ /g, '-')}`}>
@@ -11,7 +11,7 @@ const Card = ({ noticia }) => {
                 <div className='detalles'>
                     <h2>{noticia.title}</h2>
                     <h3>{noticia.subtitle}</h3>
-                    <small>Publicado el {fecha.toLocaleDateString()}</small>
+                    <small>Publicado el {noticia.date ? fecha.toLocaleDateString() : ''}</small>
                 </div>
             </div>
         </Link>
