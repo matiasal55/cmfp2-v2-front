@@ -10,17 +10,17 @@
     }
 
     .noticia-img {
-        width: 300px;
-        max-width: 80vw;
-        height: 200px;
+        width: 15rem;
+        height: 10rem;
         margin: 0;
         background-position: center;
-        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 
     .detalles {
         margin-left: 1rem;
-        width: 50%;
+        width: 70%;
     }
 }
 
