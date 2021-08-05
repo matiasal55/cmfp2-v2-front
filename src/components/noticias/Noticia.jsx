@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import parse from 'html-react-parser';
 import Main from '../Main';
 import Section from '../Section';
 import { getNoticia } from './getNoticias';
@@ -32,7 +33,7 @@ const Noticia = () => {
                 <p>
                     <i>Publicado el {noticia.date ? noticia.date.toLocaleDateString() : ''}</i>
                 </p>
-                <p>{data.content}</p>
+                <p>{typeof data.content !== 'string' ? data.content : parse(data.content)}</p>
             </Section>
         </>
     );
