@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import '../../styles/noticias/_card.scss';
+import { createLink } from '../../utils/adminTitles';
 
 const Card = ({ noticia }) => {
     const fecha = new Date(noticia.date);
+    const link = createLink('/noticias', noticia.id, noticia.title);
 
     return (
-        <Link to={`/noticias/${noticia.id}-${noticia.title.replace(/ /g, '-')}`}>
+        <Link to={link}>
             <div className='noticia'>
                 <div className='noticia-img' style={{ background: `url(${noticia.mainImage})` }} />
                 <div className='detalles'>
