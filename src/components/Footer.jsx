@@ -1,21 +1,10 @@
-import { useEffect, useState } from 'react';
-import { scrollFade } from '../utils/scrollFade';
 import Nav from './Nav';
 import '../styles/components/_footer.scss';
 
 const Footer = () => {
-    const [scroll, setScroll] = useState(false);
-
-    useEffect(() => {
-        const scrollMax = window.screen.height / 9;
-        window.addEventListener('scroll', () => {
-            setScroll(scrollFade(scrollMax));
-        });
-    }, []);
-
     return (
         <footer>
-            <div className={`footer ${scroll ? 'mostrar' : ''}`}>
+            <div className='footer mostrar'>
                 <div className='datos'>
                     <div>
                         <b>Centro Municipal de Formación Profesional N°2</b>
