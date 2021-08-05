@@ -13,12 +13,13 @@ import '../../styles/components/_items.scss';
 import { useEffect, useState } from 'react';
 import Error from '../../components/error/Index';
 import LoadingData from '../../components/LoadingData';
+import { compararTitulos, getId } from '../../utils/adminTitles';
 
 const Template = ({ section }) => {
     const [data, setData] = useState({});
     const [loading, setLoading] = useState(true);
     const { curso } = useParams();
-    const id = parseInt(curso.substring(0, curso.indexOf('-')));
+    const id = getId(curso);
 
     const request = async (section, id) => {
         const curso = await getCurso(section, id);
@@ -30,6 +31,7 @@ const Template = ({ section }) => {
         request(section, id);
     }, [section, id]);
 
+    if (data.titulo && !compararTitulos(curso, data.titulo)) return <Error error={400} />;
     if (data.error) return <Error error={data.error} />;
 
     return (

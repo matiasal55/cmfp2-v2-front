@@ -4,11 +4,12 @@ import Section from '../Section';
 import { getNoticia } from './getNoticias';
 import { useEffect, useState } from 'react';
 import Error from '../error/Index';
+import { compararTitulos, getId } from '../../utils/adminTitles';
 
 const Noticia = () => {
     const { noticia } = useParams();
     const [data, setData] = useState({});
-    const id = parseInt(noticia.substring(0, noticia.indexOf('-')));
+    const id = getId(noticia);
 
     const obtenerNoticia = async (id) => {
         const noticia = await getNoticia(id);
@@ -19,7 +20,7 @@ const Noticia = () => {
         obtenerNoticia(id);
     }, [id]);
 
-    if (data.message) return <Error error={400} />;
+    if (data.message || (data.title && !compararTitulos(noticia, data.title))) return <Error error={400} />;
     if (!data) return <Error />;
 
     return (
