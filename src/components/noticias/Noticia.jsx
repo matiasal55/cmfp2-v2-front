@@ -28,7 +28,10 @@ const Noticia = () => {
             <Main bgImage={data.mainImage} />
             <Section>
                 <h1>{data.title}</h1>
-                <h2>{data.subtitle}</h2>
+                <h3>{data.subtitle}</h3>
+                <p>
+                    <i>Publicado el {noticia.date ? noticia.date.toLocaleDateString() : ''}</i>
+                </p>
                 <p>{data.content}</p>
             </Section>
         </>
